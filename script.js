@@ -17,11 +17,11 @@ modeSwitch.addEventListener('click', () => {
       body.classList.toggle('dark');
 
       if (body.classList.contains('dark')) {
-            modeText.textContent = 'Light Mode';
+            modeText.textContent = 'To Light Mode';
             moon.style.opacity = 0;
             sun.style.opacity = 1;
       } else {
-            modeText.textContent = 'Dark Mode';
+            modeText.textContent = 'To Dark Mode';
             moon.style.opacity = 1;
             sun.style.opacity = 0;
       }
