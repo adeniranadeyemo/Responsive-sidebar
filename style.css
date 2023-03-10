@@ -165,6 +165,7 @@ header .image-text .header-text {
   outline: none;
   border-radius: 4px;
   border: none;
+  color: var(--text-color);
 }
 
 .sidebar li a {
